@@ -1,7 +1,6 @@
-# 🧬 QSAR-ML Drug Discovery
+#  QSAR_Forge |QSAR-ML Drug Discovery|
 
 > **Quantitative Structure–Activity Relationship Modeling with 20+ Machine Learning Models**  
-> Companion repository for the [Omixium YouTube Tutorial](https://www.youtube.com/watch?v=BC8r-xb9BpA) by Pritam Kumar Panda  
 > *"Machine Learning on QSAR Data | XGBoost, LightGBM, CatBoost, TabNet, Neural Nets & More!"*
 
 ---
@@ -713,8 +712,7 @@ make clean            # remove caches and build artifacts
 ## 🌐 Related Resources
 
 | Resource | Link |
-|----------|------|
-| Omixium YouTube Channel | [YouTube](https://www.youtube.com/@omixium) |
+|----------|------| |
 | ChEMBL Database | [EMBL-EBI](https://www.ebi.ac.uk/chembl/) |
 | RDKit Documentation | [rdkit.org](https://www.rdkit.org/docs/) |
 | pytorch-tabnet | [GitHub](https://github.com/dreamquark-ai/tabnet) |
