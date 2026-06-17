@@ -19,7 +19,7 @@
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [What is QSAR?](#-what-is-qsar)
 - [What You Will Learn](#-what-you-will-learn)
@@ -40,7 +40,7 @@
 
 ---
 
-## 🔬 What is QSAR?
+## What is QSAR?
 
 **Quantitative Structure–Activity Relationship (QSAR)** is a computational methodology that establishes mathematical relationships between the chemical structure of a molecule and its biological or physicochemical activity.
 
@@ -70,7 +70,7 @@ QSAR models are foundational in **computational drug discovery** because they al
 
 ---
 
-## 🎯 What You Will Learn
+##  What You Will Learn
 
 By working through this repository and the companion notebook, you will understand:
 
@@ -91,7 +91,7 @@ By working through this repository and the companion notebook, you will understa
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 QSAR-ML-Drug-Discovery/
@@ -188,7 +188,7 @@ QSAR-ML-Drug-Discovery/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 ### Source: ChEMBL Database
 
@@ -235,7 +235,7 @@ Final dataset: ~3,000–8,000 compounds with SMILES + pIC50
 
 ---
 
-## 🧪 Molecular Representations
+##  Molecular Representations
 
 ### 1. Morgan Fingerprints (ECFP-style)
 
@@ -576,7 +576,7 @@ SHAP allows you to answer:
 
 ---
 
-## 🧠 TabNet: Why Attentive Tabular Learning Matters
+## TabNet: Why Attentive Tabular Learning Matters
 
 TabNet is a deep learning architecture specifically designed for tabular data. Unlike standard MLPs, TabNet uses **sequential attention** to select which features to use at each decision step.
 
@@ -624,7 +624,7 @@ QSAR models are used in the **Hit Discovery** and **Lead Optimization** phases t
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please see the workflow below:
 
@@ -644,7 +644,7 @@ Contributions are welcome! Please see the workflow below:
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this repository in your research or teaching, please cite:
 
@@ -711,8 +711,7 @@ make clean            # remove caches and build artifacts
 
 ## 🌐 Related Resources
 
-| Resource | Link |
-|----------|------| |
+| Resource | Link ||----------|------| |
 | ChEMBL Database | [EMBL-EBI](https://www.ebi.ac.uk/chembl/) |
 | RDKit Documentation | [rdkit.org](https://www.rdkit.org/docs/) |
 | pytorch-tabnet | [GitHub](https://github.com/dreamquark-ai/tabnet) |
