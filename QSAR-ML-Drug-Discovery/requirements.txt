@@ -1,0 +1,57 @@
+# ============================================================
+# QSAR-ML Drug Discovery — Python Dependencies
+# ============================================================
+# Install with: pip install -r requirements.txt
+# For conda environment: use environment.yml instead
+# ============================================================
+
+# ── Core Scientific Stack ────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# ── Cheminformatics ──────────────────────────────────────────
+rdkit>=2023.3.1                  # Molecular featurization (Morgan FP, Descriptors, MACCS)
+chembl-webresource-client>=0.10.9 # ChEMBL REST API client
+
+# ── Machine Learning ─────────────────────────────────────────
+scikit-learn>=1.4.0              # Classical ML models, preprocessing, metrics
+xgboost>=2.0.0                   # Extreme Gradient Boosting
+lightgbm>=4.3.0                  # Light Gradient Boosting Machine
+catboost>=1.2.0                  # Categorical Boosting
+
+# ── Deep Learning ────────────────────────────────────────────
+torch>=2.1.0                     # PyTorch (MLP, CNN models)
+pytorch-tabnet>=4.1.0            # TabNet attentive tabular learning
+
+# ── Hyperparameter Optimization ──────────────────────────────
+optuna>=3.5.0                    # Bayesian hyperparameter optimization
+optuna-integration>=3.6.0        # sklearn / XGBoost / LightGBM integrations
+
+# ── Explainability ───────────────────────────────────────────
+shap>=0.44.0                     # SHAP feature importance
+
+# ── Visualization ────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.13.0
+plotly>=5.18.0                   # Interactive plots
+
+# ── Jupyter / Notebooks ──────────────────────────────────────
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.1.0
+tqdm>=4.66.0                     # Progress bars
+
+# ── Utilities ────────────────────────────────────────────────
+joblib>=1.3.0                    # Model serialization
+pyyaml>=6.0
+loguru>=0.7.0                    # Logging
+
+# ── Testing ──────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ── Code Quality ─────────────────────────────────────────────
+black>=23.0.0
+flake8>=6.1.0
+isort>=5.12.0

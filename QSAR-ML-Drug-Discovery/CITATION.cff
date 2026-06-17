@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "QSAR-ML Drug Discovery: 20+ Machine Learning Models for Bioactivity Prediction"
+abstract: >-
+  A modular QSAR (Quantitative Structure-Activity Relationship) modeling
+  pipeline implementing 20+ machine learning and deep learning models —
+  including XGBoost, LightGBM, CatBoost, and TabNet — for predicting
+  compound bioactivity (pIC50) from molecular structure. Companion
+  repository for the Omixium YouTube tutorial.
+authors:
+  - family-names: "Panda"
+    given-names: "Pritam Kumar"
+    affiliation: "Omixium"
+version: 1.0.0
+date-released: "2025-01-01"
+url: "https://github.com/YOUR_USERNAME/QSAR-ML-Drug-Discovery"
+repository-code: "https://github.com/YOUR_USERNAME/QSAR-ML-Drug-Discovery"
+license: MIT
+keywords:
+  - QSAR
+  - cheminformatics
+  - drug discovery
+  - machine learning
+  - deep learning
+  - XGBoost
+  - LightGBM
+  - CatBoost
+  - TabNet
+  - RDKit
+  - ChEMBL
+  - bioactivity prediction
+type: software
+preferred-citation:
+  type: software
+  title: "QSAR-ML Drug Discovery: 20+ Machine Learning Models for Bioactivity Prediction"
+  authors:
+    - family-names: "Panda"
+      given-names: "Pritam Kumar"
+      affiliation: "Omixium"
+  year: 2025
+  url: "https://github.com/YOUR_USERNAME/QSAR-ML-Drug-Discovery"
