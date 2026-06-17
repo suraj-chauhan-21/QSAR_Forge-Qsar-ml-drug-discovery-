@@ -644,22 +644,6 @@ Contributions are welcome! Please see the workflow below:
 
 ---
 
-## Citation
-
-If you use this repository in your research or teaching, please cite:
-
-```bibtex
-@misc{panda2025qsar,
-  title     = {QSAR-ML Drug Discovery: 20+ Machine Learning Models for Bioactivity Prediction},
-  author    = {Panda, Pritam Kumar},
-  year      = {2025},
-  publisher = {GitHub},
-  url       = {https://github.com/YOUR_USERNAME/QSAR-ML-Drug-Discovery},
-  note      = {Companion repository for Omixium YouTube Tutorial}
-}
-```
-
-**YouTube Video**: [https://www.youtube.com/watch?v=BC8r-xb9BpA](https://www.youtube.com/watch?v=BC8r-xb9BpA)
 
 ---
 
@@ -709,18 +693,14 @@ make clean            # remove caches and build artifacts
 
 ---
 
-## 🌐 Related Resources
-
-| Resource | Link ||----------|------| |
+| Resource | Link |
+|----------|------|
 | ChEMBL Database | [EMBL-EBI](https://www.ebi.ac.uk/chembl/) |
 | RDKit Documentation | [rdkit.org](https://www.rdkit.org/docs/) |
 | pytorch-tabnet | [GitHub](https://github.com/dreamquark-ai/tabnet) |
 | SHAP Documentation | [shap.readthedocs.io](https://shap.readthedocs.io/) |
 | Optuna | [optuna.org](https://optuna.org/) |
 
+
 ---
 
-<p align="center">
-  <i>Built with ❤️ for the computational drug discovery community</i><br>
-  <i>Based on the Omixium YouTube tutorial by Pritam Kumar Panda</i>
-</p>
