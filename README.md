@@ -288,7 +288,7 @@ fp = MACCSkeys.GenMACCSKeys(mol)  # → 167-bit vector (bit 0 unused)
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 This repository trains and benchmarks **20+ regression models** on QSAR data:
 
@@ -336,7 +336,7 @@ This repository trains and benchmarks **20+ regression models** on QSAR data:
 
 ---
 
-## 🔄 Pipeline Overview
+## Pipeline Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -374,7 +374,7 @@ This repository trains and benchmarks **20+ regression models** on QSAR data:
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Option A: Run in Google Colab (Recommended for Beginners)
 
@@ -402,7 +402,7 @@ jupyter lab notebooks/QSAR_ML_Models.ipynb
 
 ---
 
-## 🛠 Installation
+## Installation
 
 ### Prerequisites
 
@@ -441,7 +441,7 @@ print('All dependencies installed successfully!')
 
 ---
 
-## 📋 Usage Guide
+##  Usage Guide
 
 ### 1. Fetch Data from ChEMBL
 
@@ -524,7 +524,7 @@ plot_shap_summary(
 
 ---
 
-## 📈 Results & Benchmarks
+##  Results & Benchmarks
 
 *Example benchmark results on the AChE dataset with Morgan fingerprints (2048-bit, radius=2). Your results may vary depending on the dataset version and train/test split.*
 
@@ -546,7 +546,7 @@ plot_shap_summary(
 
 ---
 
-## 🔍 Explainability with SHAP
+##  Explainability with SHAP
 
 SHAP (SHapley Additive exPlanations) assigns each feature an importance score for each prediction.
 
@@ -606,7 +606,7 @@ Key advantages:
 
 ---
 
-## 🧬 Background: The Drug Discovery Context
+##  Background: The Drug Discovery Context
 
 ```
 Target Identification → Hit Discovery → Lead Optimization → Preclinical → Clinical Trials
@@ -657,13 +657,13 @@ Contributions are welcome! Please see the workflow below:
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🌐 Community & Policies
+##  Community & Policies
 
 This repository follows standard open-source governance practices:
 
